@@ -13,6 +13,16 @@ public class Crime {
     private Date mDate;
     private boolean mSolved;
 
+    public String getSuspect() {
+        return mSuspect;
+    }
+
+    public void setSuspect(String suspect) {
+        mSuspect = suspect;
+    }
+
+    private String mSuspect;
+
     public Date getDate() {
         return mDate;
     }
@@ -22,7 +32,13 @@ public class Crime {
     }
 
     public Crime() {
-        mId = UUID.randomUUID();
+        this(UUID.randomUUID());
+        //mId = UUID.randomUUID();
+        //mDate = new Date();
+    }
+
+    public Crime(UUID id) {
+        mId = id;
         mDate = new Date();
     }
 

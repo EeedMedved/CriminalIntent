@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CriminalIntent</string>
+    <string name="send_report">Отправить отчёт</string>
+    <string name="crime_report_subject">Криминальный отчёт</string>
+    <string name="crime_report_suspect">подозреваемый %s</string>
+</resources>
